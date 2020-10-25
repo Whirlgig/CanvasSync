@@ -64,7 +64,7 @@ class Settings(object):
         self.sync_assignments = True
         self.download_linked = True
         self.avoid_duplicates = True
-        self.use_nicknames = False
+        self.use_nicknames = True
 
         # Get the path pointing to the settings file.
         self.settings_path = os.path.abspath(os.path.expanduser(u"~")
